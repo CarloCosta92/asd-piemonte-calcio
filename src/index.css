@@ -33,10 +33,6 @@ body {
   color: var(--color-text-main);
 }
 
-main {
-  padding-inline: 1.5rem;
-}
-
 nav,
 footer {
   padding-inline: 1.5rem;

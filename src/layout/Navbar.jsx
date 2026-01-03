@@ -8,7 +8,7 @@ const Navbar = () => {
     { name: "Home", to: "/" },
     { name: "Squadre", to: "/teams" },
     { name: "Partite", to: "/matches" },
-    { name: "Contatti", to: "/contact" },
+    { name: "Info", to: "/information" },
   ];
 
   return (
