@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import Button from "../components/ui/Button";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -52,7 +53,7 @@ const Navbar = () => {
 
           {/* Hamburger mobile */}
           <div className="md:hidden">
-            <button onClick={() => setIsOpen(!isOpen)}>
+            <Button onClick={() => setIsOpen(!isOpen)}>
               <svg
                 className="w-6 h-6"
                 fill="none"
@@ -76,7 +77,7 @@ const Navbar = () => {
                   />
                 )}
               </svg>
-            </button>
+            </Button>
           </div>
         </div>
 

@@ -1,3 +1,4 @@
+import Button from "../components/ui/Button";
 import { news } from "../data/mockData";
 import { Calendar, ArrowRight } from "lucide-react";
 
@@ -36,13 +37,13 @@ const News = () => {
                 <p className="text-(--color-text-muted) text-lg mb-8 leading-relaxed">
                   {featuredNews.content}
                 </p>
-                <button
+                <Button
                   className="flex items-center gap-2 text-white px-6 py-3 rounded-lg font-bold hover:opacity-90 transition"
                   style={{ backgroundColor: "var(--color-success)" }}
                 >
                   Leggi di più
                   <ArrowRight size={18} />
-                </button>
+                </Button>
               </div>
             </div>
           </div>
@@ -111,7 +112,7 @@ const News = () => {
                 backgroundColor: "var(--color-bg-card)",
               }}
             />
-            <button
+            <Button
               className="px-6 py-3 rounded-lg font-bold hover:opacity-90 transition"
               style={{
                 backgroundColor: "var(--color-bg-card)",
@@ -119,7 +120,7 @@ const News = () => {
               }}
             >
               Iscriviti
-            </button>
+            </Button>
           </div>
         </div>
       </section>

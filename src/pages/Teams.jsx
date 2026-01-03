@@ -1,3 +1,4 @@
+import Button from "../components/ui/Button";
 import { teams } from "../data/mockData";
 import { Users, Calendar, User } from "lucide-react";
 
@@ -96,12 +97,12 @@ const Teams = () => {
                     </div>
                   </div>
 
-                  <button
+                  <Button
                     className="w-full text-white py-2 rounded-lg font-bold transition hover:opacity-90"
                     style={{ backgroundColor: `var(${team.color})` }}
                   >
                     Scopri la rosa
-                  </button>
+                  </Button>
                 </div>
               </div>
             ))}

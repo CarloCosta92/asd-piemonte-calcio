@@ -19,9 +19,9 @@ const CallToAction = () => {
           >
             Contattaci
           </Button>
-          <button className="border-2 border-(--color-bg-card) text-white px-8 py-3 rounded-lg font-bold hover:bg-(--color-primary) transition">
+          <Button className="border-2 border-(--color-bg-card) text-white px-8 py-3 rounded-lg font-bold hover:bg-(--color-primary) transition">
             Scarica il modulo
-          </button>
+          </Button>
         </div>
       </div>
     </section>
