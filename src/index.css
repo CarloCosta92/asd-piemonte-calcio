@@ -1,37 +1,31 @@
 @import "tailwindcss";
 
 :root {
-  --font-primary: 'Inter', sans-serif;
+  --font-primary: "Inter", sans-serif;
 
   /* Brand */
-  --color-primary: #1E3A8A;
-  /* Blu Piemonte */
-  --color-primary-light: #3B82F6;
-  /* Azzurro */
+  --color-primary: #1e3a8a;
+
+  --color-primary-light: #3b82f6;
 
   /* Accent / Highlight */
-  --color-highlight: #FACC15;
-  /* Giallo tenue */
+  --color-highlight: #facc15;
 
   /* Background */
-  --color-bg-main: #F8FAFC;
-  /* Sfondo generale */
-  --color-bg-card: #FFFFFF;
-  /* Card / sezioni */
+  --color-bg-main: #f8fafc;
+
+  --color-bg-card: #ffffff;
 
   /* Text */
-  --color-text-main: #1F2937;
-  /* Testo principale */
-  --color-text-muted: #6B7280;
-  /* Testo secondario */
+  --color-text-main: #1f2937;
+
+  --color-text-muted: #6b7280;
 
   /* States */
-  --color-success: #16A34A;
-  --color-error: #DC2626;
-  --color-warning: #F59E0B;
+  --color-success: #16a34a;
+  --color-error: #dc2626;
+  --color-warning: #f59e0b;
 }
-
-
 
 body {
   font-family: var(--font-primary);
@@ -39,11 +33,35 @@ body {
   color: var(--color-text-main);
 }
 
+main {
+  padding-inline: 1.5rem;
+}
+
+nav,
+footer {
+  padding-inline: 1.5rem;
+}
+
 .card {
   background-color: var(--color-bg-card);
+  border-radius: 0.5rem;
+
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+
+  padding: 1.5rem;
 }
 
 .btn-primary {
   background-color: var(--color-primary);
   color: white;
+  padding: 0.75rem 1.5rem;
+
+  border-radius: 0.5rem;
+
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-primary-light);
 }

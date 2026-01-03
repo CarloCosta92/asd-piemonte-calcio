@@ -1,15 +1,20 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import DefaultLayout from "./layout/DefaultLayout";
+import Home from "./pages/Home";
+import Teams from "./pages/Teams";
+import Matches from "./pages/Matches";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
     <DefaultLayout>
-      <h1 className="text-3xl font-bold text-center mt-8">
-        Benvenuto in ASD Piemonte Calcio
-      </h1>
-      <p className="text-center mt-4 text-gray-600">
-        Questo è il sito demo per allenamento React + Tailwind + Zod
-      </p>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/teams" element={<Teams />} />
+        <Route path="/matches" element={<Matches />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
     </DefaultLayout>
   );
 }
