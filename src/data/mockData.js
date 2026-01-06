@@ -156,8 +156,8 @@ export const staff = [
 
 export const contactInfo = {
   phone: "0123 456789",
-  email: "info@virtussporting.it",
-  address: "Via dello Sport 15, 20100 Milano",
+  email: "info@asdpiemontecalcio.it",
+  address: "Via Esempio 12, 10100 Torino (TO)",
   hours: {
     weekday: "Lun-Ven 15:00-19:00",
     saturday: "Sab 9:00-12:00",

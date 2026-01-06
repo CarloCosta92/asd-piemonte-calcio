@@ -1,8 +1,10 @@
+import { useNavigate } from "react-router-dom";
 import Button from "../components/ui/Button";
 import { teams } from "../data/mockData";
 import { Users, Calendar, User } from "lucide-react";
 
 const Teams = () => {
+  const navigate = useNavigate();
   return (
     <div className="min-h-screen bg-(--color-bg-main)">
       {/* Header */}
@@ -100,6 +102,7 @@ const Teams = () => {
                   <Button
                     className="w-full text-white py-2 rounded-lg font-bold transition hover:opacity-90"
                     style={{ backgroundColor: `var(${team.color})` }}
+                    onClick={() => navigate(`/teams/${team.id}`)}
                   >
                     Scopri la rosa
                   </Button>
@@ -146,8 +149,8 @@ const Teams = () => {
               </div>
               <h3 className="font-bold text-lg mb-2">Tesseramento</h3>
               <p className="text-(--color-text-muted)">
-                Completa la documentazione e inizia il tuo percorso con la
-                Virtus
+                Completa la documentazione e inizia il tuo percorso con il
+                Piemonte Calcio
               </p>
             </div>
           </div>

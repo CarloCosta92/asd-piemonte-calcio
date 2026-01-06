@@ -4,10 +4,10 @@ import Button from "./Button";
 const CallToAction = () => {
   const navigate = useNavigate();
   return (
-    <section className="bg-(--color-primary-light) text-white py-16">
+    <section className="bg-linear-to-r from-(--color-primary-light) to-(--color-primary) text-white py-16">
       <div className="max-w-4xl mx-auto px-6 text-center">
         <h2 className="text-4xl font-bold mb-6">
-          Vuoi far parte della Virtus?
+          Vuoi far parte del Piemonte Calcio?
         </h2>
         <p className="text-lg mb-8">
           Unisciti a oltre 450 atleti che credono nei nostri valori

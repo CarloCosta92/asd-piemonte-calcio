@@ -12,7 +12,7 @@ const News = () => {
       <section className="bg-linear-to-r from-(--color-success) to-(--color-primary-light) text-white py-12">
         <div className="max-w-7xl mx-auto px-6 text-center">
           <h1 className="text-4xl font-bold mb-4">News e Aggiornamenti</h1>
-          <p>Resta aggiornato su tutte le ultime novità della Virtus</p>
+          <p>Resta aggiornato su tutte le ultime novità del Piemonte Calcio</p>
         </div>
       </section>
 
