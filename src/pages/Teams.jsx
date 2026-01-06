@@ -6,7 +6,7 @@ import { Users, Calendar, User } from "lucide-react";
 const Teams = () => {
   const navigate = useNavigate();
   return (
-    <div className="min-h-screen bg-(--color-bg-main)">
+    <div className="min-h-screen ">
       {/* Header */}
       <section className="bg-linear-to-r from-(--color-primary) to-(--color-primary-light) text-white py-12">
         <div className="max-w-7xl mx-auto px-6 text-center">
@@ -44,7 +44,7 @@ const Teams = () => {
                         {team.category}
                       </p>
                     </div>
-                    <span className="bg-(--color-bg-main) text-(--color-text-muted) px-3 py-1 rounded-full text-sm font-semibold">
+                    <span className="text-(--color-text-muted) px-3 py-1 rounded-full text-sm font-semibold">
                       {team.age}
                     </span>
                   </div>
@@ -114,7 +114,7 @@ const Teams = () => {
       </section>
 
       {/* Info Section */}
-      <section className="bg-(--color-bg-card) py-16 border-t">
+      <section className="py-16 border-t">
         <div className="max-w-7xl mx-auto px-6">
           <h2 className="text-3xl font-bold mb-12 text-center">
             Come funziona
@@ -122,7 +122,7 @@ const Teams = () => {
 
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="bg-(--color-bg-main) w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Calendar className="text-(--color-primary)" size={24} />
               </div>
               <h3 className="font-bold text-lg mb-2">Iscrizione</h3>
@@ -133,7 +133,7 @@ const Teams = () => {
             </div>
 
             <div className="text-center">
-              <div className="bg-(--color-bg-main) w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Users className="text-(--color-success)" size={24} />
               </div>
               <h3 className="font-bold text-lg mb-2">Selezione</h3>
@@ -144,7 +144,7 @@ const Teams = () => {
             </div>
 
             <div className="text-center">
-              <div className="bg-(--color-bg-main) w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Users className="text-(--color-error)" size={24} />
               </div>
               <h3 className="font-bold text-lg mb-2">Tesseramento</h3>

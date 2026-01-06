@@ -25,6 +25,24 @@
   --color-success: #16a34a;
   --color-error: #dc2626;
   --color-warning: #f59e0b;
+
+  
+  /* Nuovi gradient argento / luxury */
+    --gradient-main-from: #e3e6eb;
+    /* argento chiaro */
+    --gradient-main-to: #8fa3bf;
+    /* blu freddo sofisticato */
+  
+    --gradient-luxury-from: #f0f2f5;
+    /* argento metallizzato */
+    --gradient-luxury-to: #7f6b99;
+    /* blu/viola elegante */
+
+    /* Gradient sabbia elegante */
+    --gradient-sand-from: #f7f5f0;
+      /* sabbia chiara delicata, quasi panna */
+      --gradient-sand-to: #e9e3d8;
+      /* sabbia beige soft, molto elegante */
 }
 
 body {

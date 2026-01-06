@@ -7,7 +7,7 @@ const News = () => {
   const otherNews = news.filter((n) => !n.featured);
 
   return (
-    <div className="min-h-screen bg-(--color-bg-main)">
+    <div className="min-h-screen ">
       {/* Header */}
       <section className="bg-linear-to-r from-(--color-success) to-(--color-primary-light) text-white py-12">
         <div className="max-w-7xl mx-auto px-6 text-center">

@@ -15,7 +15,7 @@ const TeamDetail = () => {
   }
 
   return (
-    <div className="min-h-screen bg-(--color-bg-main)">
+    <div className="min-h-screen ">
       {/* Header */}
       <section
         className="text-white py-12"

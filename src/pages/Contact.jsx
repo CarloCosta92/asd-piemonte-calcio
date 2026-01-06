@@ -4,7 +4,7 @@ import { Phone, Mail, MapPin, Clock } from "lucide-react";
 
 const Contact = () => {
   return (
-    <div className="min-h-screen bg-(--color-bg-main)">
+    <div className="min-h-screen ">
       {/* Header */}
       <section className="py-12 text-white bg-linear-to-r from-(--color-primary) to-(--color-primary-light)">
         <div className="max-w-7xl mx-auto px-6 text-center">
